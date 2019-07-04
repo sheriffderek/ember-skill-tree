@@ -69,6 +69,29 @@ page as an example. They'll ask "where is that code" - and you'll say... it's ab
 
 * Take the functionality of the stuff you made - and break it out into a component instead of a controller.
 
+### 7. from there... 
+
+* depending on the person... _and their goals_ - you might take a few paths. Maybe they should start getting some data from other sources... or maybe they should work with routes - and get some static pages.
+
+* my point... is that each step should leave the person capable. If you hook up a bunch of services and some models and some ember-data - and nested routes - and they don't understand how those things are helping them... then they are just memorizing things. At each stage - you need to hit the wall / where the tools can assist you. Some people are learning this _flavor_ or MVC - but others are learning 'web applications' - and those people aren't just going to see parody here and there. They might have never heard or rails. They might have gone to a MEAN stack boot-camp and barely know HTML.
+
+* outlets might not be as important to understand as services - depending on what they want to build... but / having an about/contact page - might be a good example.
+
+* importing/using libraries
+* services (using them in components)
+* routing (links/outlets) (maybe file structure now - if at all)
+* using routes to get data
+* models (ember-data)
+* dynamic routing
+* state
+* testing
+* auth
+* creating addons
+* engines
+
+
+
+<br><br>
 
 ## Prerequisites
 
