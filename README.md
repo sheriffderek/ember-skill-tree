@@ -57,6 +57,15 @@ page as an example. They'll ask "where is that code" - and you'll say... it's ab
 
 * create a few properties in the controller and then use them in the template
 
+### 4. Use Ember more
+
+* You can get a lot done with just one template and it's controller.
+
+* build out some fun stuff with inputs and buttons. maybe something of [this](https://codepen.io/sheriffderek/pen/OGbWzG) complexity
+
+* (I'm late for real work - so, I'm not going to actually program the rest of this stuff)
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
