@@ -1,0 +1,58 @@
+
+/** reset **/
+body {
+  margin: 0;
+}
+/* you'd want to reset type and spacing with meyer-reset or something */
+/* you'll want to get a preprocessor probably... but - at least we can use some css variables for now */
+
+/** settings **/
+:root {
+  /* native CSS variables */
+  --black: #111111;
+  --white: #EFEFEF;
+  --light-gray: #999999;
+  --color: #FF0066;
+  --highlight: pink;
+}
+
+/** structure **/
+body > .ember-view {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main.page-content {
+  flex: 1;
+}
+
+.page-section {
+  border: 1px solid rgba(0, 0, 255, .1);
+}
+
+.page-section .inner-column {
+  width: 98%;
+  max-width: 900px; /* arbitrary */
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid rgba(255, 0, 0, .1);
+  padding: 1rem;
+}
+
+/** theme **/
+body {
+  background: var(--white);
+  color: var(--black);
+}
+.site-header {
+  background: var(--color);
+  color: var(--highlight);
+}
+
+.site-footer {
+  background: var(--light-gray);
+}
+
+/* are these variables ugly! ???  YES */
+/* it's already not very fun... : (  good reason for a preprocessor */

@@ -30,6 +30,18 @@ page as an example. They'll ask "where is that code" - and you'll say... it's ab
 * now we can do something.
 
 
+### 3. Write some markup and styles
+
+* explain that the 'app.css' is the primary file for styles (by default) (this way - they can find it...)
+
+* write some decent markup examples to work with and some basic styles to ensure things are connecting
+
+* expose why you might want to start breaking up the style files - and why you might want a preprocessor
+
+* at this point - it's just like an HTML & CSS project (index.html and style.css) - so... why use Ember? At least the build pipeline auto-refreshes the page when you make changes to the files! : )
+
+
+
 
 ## Prerequisites
 
