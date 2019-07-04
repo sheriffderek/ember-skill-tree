@@ -1,7 +1,13 @@
-# skill-tree
+# ember-skill-tree exploration
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+## Skill tree
+
+### Install Ember
+
+* You may need to explain a bit about imports and exports. If they don't feel comfortable with NPM and imports and exports / don't just keep moving. Instead initialize an npm project with them - and import and export some stuff between files to explain it clearly before moving on.
+
 
 ## Prerequisites
 
