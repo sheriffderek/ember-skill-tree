@@ -13,6 +13,10 @@ Thoughts on how Ember (or anything) could be taught in order of importance. I wo
 
 * You may need to explain a bit about imports and exports. If they don't feel comfortable with NPM and imports and exports / _don't just keep moving_. Instead: initialize an npm project with them - and import and export some stuff between files to explain it clearly before moving on.
 
+### 1.1
+
+* explain that Ember CLI is a tool that lets you create projects and files and that it watches your project for changes. Create a new project
+
 
 ### 2. Find a file to work in and clear out the confusing stuff
 
@@ -41,7 +45,17 @@ page as an example. They'll ask "where is that code" - and you'll say... it's ab
 * at this point - it's just like an HTML & CSS project (index.html and style.css) - so... why use Ember? At least the build pipeline auto-refreshes the page when you make changes to the files! : )
 
 
+### 4. Use Ember
 
+* so far - you've used Ember CLI to create a project / and to watch for file changes and build your project (and display that in the browser) - but that's really just the tooling. We haven't worked with anything dynamic / or used Ember for what it's good at.
+
+* since we're working with a file called 'application' - you can create a 'controller' of the same name - and they can work together (describing this stuff here - as a precursor to components)
+
+* Use the CLI to generate a controller. `ember generate controller application` = "Hey, Ember. Please generate a controller and name it 'application'. thanks." (you _could_ talk about how there is always a controller for everything... but that it's hidden to keep things clean / and that when you want to use it - you have to explicitly create the file which extends the bla bla... or save that for later...)
+
+* find that file with the command pallet (don't worry about file structure) - and explain that Embers conventions use naming to connect files. application.hbs - and application.js are linked by name. This will help dispell some of the 'magic.'
+
+* create a few properties in the controller and then use them in the template
 
 ## Prerequisites
 
